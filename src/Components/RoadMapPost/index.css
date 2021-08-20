@@ -1,0 +1,108 @@
+.roadmap {
+  min-height: 100vh;
+  padding: 5% 0;
+}
+
+.roadmap .notification_title {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #141e61;
+  text-transform: uppercase;
+  padding: 1% 0;
+}
+
+.roadmap .title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.roadmap .sub_title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #35373a;
+  font-weight: 500;
+  padding: 2% 0;
+}
+
+.roadmap .post_info_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2%;
+}
+
+.roadmap .normal_text {
+  font-size: 21px;
+  line-height: 33.6px;
+  color: #35373a;
+  padding: 4%;
+}
+
+.roadmap .link {
+  color: #10c189;
+  font-weight: 600;
+  margin: 0 5px;
+}
+.roadmap .quote_text {
+  border-left: 2px solid #10c189;
+  font-size: 21px;
+  line-height: 33.6px;
+  color: #35373a;
+  padding: 0 4%;
+}
+
+.roadmap b {
+  padding: 5px;
+}
+
+.roadmap .heading {
+  font-size: 48px;
+  padding: 4%;
+  font-weight: 800;
+  letter-spacing: -0.72px;
+  line-height: 55px;
+}
+
+.roadmap .content_image {
+  padding: 4%;
+  width: 100%;
+}
+
+.roadmap .sub_heading {
+  padding: 0 4%;
+  font-size: 28px;
+  font-weight: 7000;
+}
+
+.roadmap ul {
+  padding: 4%;
+  margin: 0;
+}
+
+.roadmap ul li {
+  font-size: 21px;
+  line-height: 33.6px;
+  color: #35373a;
+  padding: 1%;
+}
+.roadmap .italic_text {
+  font-style: italic;
+}
+
+.roadmap .learn_more {
+  padding: 0 4%;
+  font-size: 21px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .roadmap .notification_title {
+    margin-top: 70px;
+  }
+}

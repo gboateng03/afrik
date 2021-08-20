@@ -1,0 +1,56 @@
+._getStarted_card_div {
+  cursor: pointer;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 0px;
+  background-color: #10054d;
+}
+._getStarted_card_div:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+._get_started_title {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+._points_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80%;
+  margin-top: 10px;
+}
+
+._get_start_btn {
+  width: 70%;
+  padding: 10px 0px;
+  background: linear-gradient(to right, #797b91, #eeeeee);
+  color: #10054d;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+/* ._get_start_btn:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+} */

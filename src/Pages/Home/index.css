@@ -1,0 +1,231 @@
+.header_div {
+  color: #fff;
+  background-image: url("https://iotexproject.iotex.io/iotex-website-v3/main/public/images/animation.svg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-size: contain;
+  background-position: center;
+  flex-direction: column;
+}
+.header_headig {
+  font-size: 6vw;
+  font-weight: 600;
+  z-index: 1;
+  text-align: center;
+}
+
+.header_des {
+  font-size: 25px;
+  color: #d7d8dc;
+  width: 70%;
+  line-height: 35px;
+  text-align: center;
+  z-index: 1;
+}
+._big_ball {
+  width: 27%;
+  position: absolute;
+  z-index: 1;
+  left: 120px;
+  top: 130px;
+}
+._small_ball {
+  width: 12%;
+  position: absolute;
+  z-index: -1;
+  right: 170px;
+  top: 290px;
+}
+._get_started_txt {
+  text-align: center;
+  color: #797b91;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  width: 70%;
+  margin: -50px auto 0px auto;
+  cursor: pointer;
+  /* box-shadow:5px 1px 15px #40e8a5; */
+}
+
+.devices_value {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+.devices_txt {
+  color: #cccccc;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.image_circular {
+  width: 7%;
+  margin-left: 12%;
+  margin-top: 50px;
+  /* animation: rotation 2s linear infinite;
+  animation: rotation 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+._in_the_news_txt {
+  text-align: center;
+  color: #fff;
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+._iotex_blockchain_txt {
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 600;
+  margin-top: 50px;
+  width: 70%;
+  margin: 50px auto 0px auto;
+}
+._iotex_blockchain_des {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  word-spacing: 5px;
+  width: 75%;
+  margin: 30px auto 0px auto;
+  font-weight: 500;
+}
+._device_image_div {
+  background-image: url("./../../assets/img_device.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+._device_image {
+  width: 100%;
+  cursor: pointer;
+}
+._build_txt {
+  text-align: center;
+  color: #797b91;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0px auto;
+  cursor: pointer;
+  width: 80%;
+}
+._build_txt:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.award_line_1 {
+  background: url("./../../assets/awind_line_1.png");
+  height: 50px;
+  margin: 50px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: 90s linear 0s infinite normal none running awardLine1;
+}
+.award_line_2 {
+  background: url("./../../assets/awind_line_2.png");
+  height: 50px;
+  margin: 10px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: 90s linear 0s infinite normal none running awardLine2;
+}
+@media only screen and (max-width: 700px) {
+  .header_div {
+    height: 50vh;
+  }
+  .header_headig {
+    font-size: 6vw;
+    font-weight: 600;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .header_des {
+    font-size: 14px;
+    color: #d7d8dc;
+    width: 90%;
+    line-height: 20px;
+    text-align: center;
+    z-index: 1;
+    margin-top: 20px;
+  }
+  ._big_ball {
+    left: 50px;
+    top: 70px;
+  }
+  ._small_ball {
+    right: 90px;
+    top: 160px;
+  }
+  .devices_value {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
+  .devices_txt {
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  ._get_started_txt {
+    margin-top: -60px;
+    font-size: 14px;
+  }
+  ._iotex_blockchain_txt {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    margin: 50px auto 0px auto;
+  }
+  ._iotex_blockchain_des {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    word-spacing: 5px;
+    width: 100%;
+    margin: 20px auto 0px auto;
+    font-weight: 500;
+  }
+  ._in_the_news_txt {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}

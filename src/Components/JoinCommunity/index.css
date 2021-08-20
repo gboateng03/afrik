@@ -1,0 +1,134 @@
+._community_div {
+  max-width: 80%;
+  margin-inline: auto;
+  border-radius: 1.125rem;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 133.06%
+  );
+  box-shadow: rgb(172 208 254 / 25%) -1px -1px 0px inset;
+  backdrop-filter: blur(100px);
+  text-align: center;
+  padding: 70px 0px;
+  margin-top: 100px;
+}
+._community_heading {
+  color: #fff;
+}
+._community_des {
+  color: #cdcdcf;
+  font-weight: 600;
+  width: 70%;
+  margin: 10px auto 0px auto;
+  font-size: 16px;
+}
+._community_icon_div {
+  box-shadow: rgb(172 208 254 / 25%) -1px -1px 0px inset;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 133.06%
+  );
+  border-radius: 1.125rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px;
+  margin: auto;
+}
+._telegram_div {
+  text-align: center;
+  margin-top: 30px;
+}
+._social_heading {
+  color: #fff;
+  margin-top: 50px;
+  font-weight: 600;
+}
+._social_des {
+  color: #cdcdcf;
+  margin-top: 10px;
+  font-size: 14px;
+}
+._stay_updated_txt {
+  color: #fff;
+  margin-top: 100px;
+}
+._subscribe_txt {
+  color: #cdcdcf;
+  margin-top: 10px;
+  font-size: 18px;
+}
+._subscribe_input {
+  padding: 20px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 133.06%
+  );
+  border: none !important;
+  outline: none !important;
+  width: 80%;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px;
+  color: #eeeeee;
+}
+::placeholder {
+  color: #eeeeee;
+}
+._subscribe_div {
+  border: 1px solid grey;
+  width: 45%;
+  margin: 50px auto 0px auto;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 133.06%
+  );
+  border-radius: 5px;
+}
+._submit_btn {
+  width: 20%;
+  padding: 20px 0px;
+  background: linear-gradient(to right, #797b91, #eeeeee);
+  color: #10054d;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+._subscribe_div:hover {
+  border: 1px solid #eeeeee;
+}
+
+@media only screen and (max-width: 700px) {
+  ._community_div {
+    max-width: 95%;
+    margin-top: 100px;
+  }
+  ._community_des {
+    width: 90%;
+    font-size: 16px;
+  }
+  ._subscribe_input {
+    padding: 18px;
+    width: 70%;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 16px;
+    color: #cdcdcf;
+  }
+  ._subscribe_div {
+    border: 1px solid grey;
+    width: 90%;
+  }
+  ._submit_btn {
+    width: 30%;
+    padding: 18px 0px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

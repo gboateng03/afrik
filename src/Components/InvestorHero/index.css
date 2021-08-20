@@ -1,0 +1,35 @@
+.investor_hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./../../assets/investor-banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.investor_hero .heading {
+  color: #fff;
+  font-size: 88px;
+}
+
+.investor_hero .description {
+  color: #fff;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 700px) {
+  .investor_hero {
+    min-height: 60vh;
+  }
+  .investor_hero .heading {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .investor_hero .description {
+    color: #fff;
+    font-size: 18px;
+  }
+}

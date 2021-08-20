@@ -1,0 +1,114 @@
+/** @format */
+
+._pagesHeading {
+  font-weight: bold;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+._pageName {
+  color: #797b91;
+  font-size: 13px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+._contactUsTxt {
+  font-size: 13px;
+  margin-left: 10px;
+  color: grey;
+}
+._footerDiv {
+  margin-top: 100px;
+  background-color: transparent;
+}
+._siteTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+._siteDes {
+  font-size: 13px;
+  margin-top: -10px;
+  color: grey;
+}
+._socialIcon {
+  border-radius: 100px;
+  margin-left: 3px;
+}
+._footer_subscribe_div {
+  border: 1px solid grey;
+  width: 100%;
+  margin: 50px auto 0px auto;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 133.06%
+  );
+  border-radius: 5px;
+}
+._footer_subscribe_input {
+  padding: 10px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 133.06%
+  );
+  border: none !important;
+  outline: none !important;
+  width: 75%;
+  font-family: "Montserrat", sans-serif !important;
+  color: #cdcdcf;
+}
+._footer_submit_btn {
+  width: 25%;
+  padding: 10px 0px;
+  background: linear-gradient(to right, #797b91, #eeeeee);
+  color: #10054d;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 12px;
+  font-weight: 600;
+}
+._footer_subscribe_div:hover {
+  border: 1px solid #eeeeee;
+}
+.sub_footer_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+  color: #eeeeee;
+  font-size: 15px;
+}
+._socialIconDiv {
+  color: #797b91;
+}
+
+@media only screen and (max-width: 600px) {
+  ._pagesHeading {
+    text-align: left;
+  }
+  ._pageName {
+    text-align: left;
+  }
+  ._contactUsTxt {
+    text-align: center;
+  }
+  ._siteDes {
+    text-align: left;
+  }
+  ._socialIcon {
+    text-align: left;
+    margin: auto;
+  }
+  ._siteTitle {
+    text-align: left;
+  }
+  ._socialIconDiv {
+    text-align: left;
+  }
+  ._footerContactDiv {
+    text-align: center !important;
+  }
+}
